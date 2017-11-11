@@ -1,0 +1,122 @@
+html{
+  font-size: 18px;
+  background-color: white;
+}
+.company .container{
+  background-color: black;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15%;
+}
+.company img {
+  height: 1.5rem;
+  padding:0.66rem 1rem 0.66rem 0.5rem;
+}
+.company span {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+}
+.main-banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  height: 25rem;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+.headline  {
+  background-color: black;
+    color: white;
+    width: 18rem;
+    padding: 2rem 3rem;
+    position: relative;
+    top: 9rem;
+    left:5rem;
+}
+.headline h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.headline h1 {
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  margin: .75rem 0;
+}
+
+nav .container {
+  background-color: firebrick;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0.75rem 0rem;
+  color: white;
+  font-weight: bold;
+}
+.item-image img {
+    padding: 2rem 0;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-image {
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.container .store-items {
+  display: flex;
+  justify-content: space-between;
+}
+.item-pen,
+.item-watch,
+.item-glasses {
+  width:30%;
+}
+.description {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0.5rem 0rem;
+}
+.info .title {
+  background-color: black;
+  color: white;
+  display: block;
+  justify-content: space-between;
+  margin-top: 3rem;
+  line-height: 1.8rem;
+  padding: 0.5rem 0rem 0.5rem 2rem;
+
+}
+.container .business-info {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.info span {
+  line-height: 2.8rem;
+}
+.info {
+  width: 35%;
+}
+footer .container {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  margin-top: 4rem;
+  Padding: 4rem 0rem 2rem 6rem;
+}
