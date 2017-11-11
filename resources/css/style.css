@@ -8,6 +8,7 @@ html{
   justify-content: flex-start;
   align-items: center;
   padding-left: 15%;
+
 }
 .company img {
   height: 1.5rem;
@@ -27,12 +28,12 @@ html{
 }
 .headline  {
   background-color: black;
-    color: white;
-    width: 18rem;
-    padding: 2rem 3rem;
-    position: relative;
-    top: 9rem;
-    left:5rem;
+  color: white;
+  width: 18rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  left:5rem;
 }
 .headline h4 {
   font-family: Helvetica;
@@ -99,21 +100,21 @@ nav .container {
   margin-top: 3rem;
   line-height: 1.8rem;
   padding: 0.5rem 0rem 0.5rem 2rem;
-
-
 }
 .container .business-info {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  margin-left: 4rem;
-  padding-right: 20rem;
 }
 .info span {
   line-height: 2.8rem;
 }
+.business-info .info {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
 .info {
-  width: 35%;
+  width:35%;
 }
 footer .container {
   background-color: black;
@@ -121,4 +122,96 @@ footer .container {
   height: 5rem;
   margin-top: 4rem;
   Padding: 4rem 0rem 2rem 6rem;
+}
+nav .mobile-container {
+  display: none;
+}
+@media only screen and (max-width: 1024px){
+  nav .container{
+    display:none;
+  }
+  nav .mobile-container {
+    display: block;
+    text-align: center;
+    background-color: firebrick;
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width:1024px){
+.company .container{
+  padding-left: 0%;
+}
+.headline  {
+  position: relative;
+  top: 9rem;
+  left:0rem;
+}
+  .item-pen,
+  .item-watch {
+    width:47%;
+  }
+  .item-glasses {
+    display:none;
+  }
+  .business-info .info {
+width: 35%;
+margin:0;
+  }
+  footer .container{
+    height: 5rem;
+    margin-top: 4rem;
+    Padding: 5rem 0rem 2rem 0rem;
+  }
+}
+@media only screen and (max-width:470px){
+  .headline {
+    position: relative;
+    top: 20.2rem;
+    padding: 1rem 1rem;
+  }
+  .headline h4 {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .headline h1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+    margin: 0;
+  }
+  .item-watch {
+    display: none;
+  }
+  .item-pen {
+    width:90%;
+  }
+  .business-info .info {
+width: 90%;
+margin:0;
+  }
+  .container .business-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+  }
+  .info span {
+    line-height: 1.8rem;
+  }
+  #hours {
+    margin-top: 0.5rem;
+  }
+  footer .container{
+    height: 5rem;
+    margin-top: 4rem;
+    Padding: 5rem 0rem 2rem 3rem;
+  }
 }
